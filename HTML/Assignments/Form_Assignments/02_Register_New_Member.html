@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<form action="Data.php">
+
+    <body>
+        <form action="Data.php">
+            <h1>Register New Member</h1> <label for="Full Name"> Full Name : </label>
+            <input type="text" name="Full Name" id="Full Name">
+            <br>
+            <br> <label for="Email"> Email: </label>
+            <input type="Emil" name="Email" id="Email">
+            <br>
+            <br> <label for="Mobile NO"> Mobile No: </label>
+            <input type="Mobile No" name="Mobile No" id="Mobile NO">
+            <br>
+            <br>
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" name="gender" value="male">Male <input type="radio" name="gender"
+                    value="female">FeMale
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Address</legend>
+                <p><textarea name="address" cols="50" rows="10"></textarea></p>
+            </fieldset>
+            <br>
+            <fieldset> <label for="departments">Choose a department:</label> <select name="departments"
+                    id="departments">
+                    <option value="Select">Select</option>
+                    <option value="computer-science">Computer Science</option>
+                    <option value="mechanical">Mechanical</option>
+                    <option value="civil">Civil</option>
+                    <option value="electronics">Electronics</option>
+                </select>
+            </fieldset>
+            <br><br>
+            <fieldset> <label for="Designation">Choose a Designation:</label> <Select name="Designation"
+                    id="Designation">
+                    <option value="Select">Select</option>
+                    <option value="1.Principal">Principal</option>
+                    <option value="2.Teacher">Teacher</option>
+                    <option value="3.Staff">Staff</option>
+                </Select>
+            </fieldset><br><br>
+            <input type="Reset" value="Reset">
+            <input type="Submit" value="Login">
+        </form>
+        <a href="03_Update_Member.html">view More</a>
+    </body>
+
+</html>
