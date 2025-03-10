@@ -1,0 +1,13 @@
+#box {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    margin: 50px auto;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.hedling {
+    color: red;
+}
